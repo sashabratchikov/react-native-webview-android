@@ -92,6 +92,9 @@ var WebViewAndroidExample = React.createClass({
     reload: function() {
       this.refs.webViewAndroidSample.reload();
     },
+    stopLoading: function() {
+      this.refs.webViewAndroidSample.stopLoading();
+    },
     onNavigationStateChange: function(event) {
       console.log(event);
 
